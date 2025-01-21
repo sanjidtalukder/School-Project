@@ -151,6 +151,22 @@ border: none;
     border: none;
     color: blue;
 }
+.circel{
+    text-align: center;
+    padding: 24px 12px;
+    align-items: center;
+    
+
+}
+.circel img{
+    width: 60px;
+    border-radius: 50%;
+background: rgb(254, 163, 1);
+padding-left: 2px;
+color: aliceblue;
+text-align: center;
+
+}
 
 
 
@@ -194,7 +210,11 @@ border: none;
   .natoque{
     display: flex;
     flex-direction: column;
-gap: 20px;  }
+    gap: 20px;  
+    }
+    .circel{
+        display: none;
+    }
 }
 
 
