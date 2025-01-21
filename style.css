@@ -337,6 +337,20 @@ text-align: left;
    
     text-align: left;
 }
+.footer{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 30px; */
+    padding: 40px;
+
+}
+
+.touch{
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 16px;
+text-align: left;
+}
 
 
 @media only screen and (max-width:1220px) {
@@ -403,8 +417,17 @@ text-align: left;
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+       
+    
+    }
+    .footer-link li a{
+        text-align: left;
 }
 
-
+}
 
 
