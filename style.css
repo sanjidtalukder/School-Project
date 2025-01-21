@@ -169,9 +169,7 @@ text-align: center;
 }
 .story{
     text-align: center;
-    background: url('image/bg.png'),
-    linear-gradient(0.00deg, rgba(254, 161, 1, 0.529),
-    rgba(255, 255, 255, 0.451) 100%);
+    background: url('image/bg.png'),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
 }
 .story-contant{
     display: flex;
@@ -184,6 +182,17 @@ color: rgb(0, 0, 0);
 font-family: Quicksand;
 font-size: 26px;
 text-align: center;
+/* margin: 30px; */
+padding: 60px;
+}
+.view{
+    margin: 30px;
+    padding: 20px;
+    width: 197px;
+height: 50px;
+    border-radius: 12px;
+background: rgb(17, 17, 17);
+color: white;
 }
 .story-1{
     display: flex;
@@ -293,7 +302,41 @@ font-size: 12.34px;
 text-align: center;
   }
 
+.footer{
+    background: rgb(1, 172, 253);
+}
 
+.foot-logo{
+    display: flex;
+    color: white;
+}
+.foot{
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 12px;
+
+text-align: left;
+}
+.footer-link ul{
+    /* text-align: center; */
+    /* color: white; */
+    list-style: none;
+    
+}
+.footer-link li{
+    margin: 10px;
+}
+.footer-link li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-link h3{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 16px;
+   
+    text-align: left;
+}
 
 
 @media only screen and (max-width:1220px) {
@@ -332,6 +375,19 @@ text-align: center;
     flex-direction: column-reverse;
     text-align: center;
   }
+  .image-hero  {
+    text-align: center;
+    
+  }
+  .courage h1 {
+    text-align: center;
+  
+  }
+  .courage p {
+    text-align: center;
+   
+    
+  }
   .natoque{
     display: flex;
     flex-direction: column;
@@ -339,6 +395,13 @@ text-align: center;
     }
     .circel{
         display: none;
+    }
+    .story-1{
+        display: none;
+    }
+    .story-2-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
     }
 }
 
