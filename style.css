@@ -25,7 +25,13 @@ text-align: left;
     text-decoration: none;
     padding: 10px;
 } */
-
+.nav-var{
+    display: flex;
+}
+.nav-var img{
+    display: none;
+    width: 34px;
+}
 .nav-var ul {
     display: flex;
     list-style: none;
@@ -396,7 +402,13 @@ text-align: left;
        flex-direction: column;
        justify-content: center;
        align-items: center;
+       display: none;
        
+    }
+    .nav-var img{
+        display: block;
+        text-align: right;
+        
     }
     #check:checked ~ .nav-var ul {
        right: 0;
