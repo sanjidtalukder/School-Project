@@ -54,10 +54,15 @@ text-align: left;
     padding: 10px;
     border: none;
     color: white;
+    cursor: pointer;
 
 border-radius: 12px;
 background: rgb(254, 163, 1);
 }
+.buttons button:hover{
+ background-color: gray;
+}
+
 
 .hero{
     display: flex;
@@ -83,7 +88,14 @@ text-align: left;
     color: white;
     padding: 5px;
 background: rgb(17, 17, 17);
+font-family: Quicksand;
+cursor: pointer;
+border: none;
 }
+.courage button:hover{
+    background-color: gray;
+}
+
 .image-hero{
     margin-right: 40px;
     text-align: left;
@@ -112,6 +124,7 @@ text-align: center;
 .kinder{
     text-align: center;
     box-sizing: border-box;
+    padding:12px;
 border: 0.94px solid rgb(222, 245, 255);
 border-radius: 18.86px;
 box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
@@ -145,11 +158,13 @@ font-family: Quicksand;
 font-size: 12.09px;
 text-align: center;
 border: none;
+
    
 }
 .read-button button{
     border: none;
     color: blue;
+    cursor: pointer;
 }
 .circel{
     text-align: center;
@@ -193,6 +208,7 @@ height: 50px;
     border-radius: 12px;
 background: rgb(17, 17, 17);
 color: white;
+cursor: pointer;
 }
 .story-1{
     display: flex;
@@ -300,6 +316,7 @@ text-align: center;
 font-family: Quicksand;
 font-size: 12.34px;
 text-align: center;
+
   }
 
 .footer{
@@ -350,6 +367,11 @@ text-align: left;
 font-family: Quicksand;
 font-size: 16px;
 text-align: left;
+
+}
+.touch img{
+    padding: 7px;
+    cursor: pointer;
 }
 
 
