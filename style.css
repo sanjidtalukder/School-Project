@@ -167,6 +167,131 @@ color: aliceblue;
 text-align: center;
 
 }
+.story{
+    text-align: center;
+    background: url('image/bg.png'),
+    linear-gradient(0.00deg, rgba(254, 161, 1, 0.529),
+    rgba(255, 255, 255, 0.451) 100%);
+}
+.story-contant{
+    display: flex;
+    justify-content:space-around;
+   
+}
+
+.story h1{
+color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 26px;
+text-align: center;
+}
+.story-1{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    /* width: 540.27px; */
+    border-radius: 16px;
+    /* align-items: start;  */
+background: rgba(255, 255, 255, 0.985);
+text-align: center;
+/* gap: 0px; */
+}
+.container {
+    position: relative;
+    width: 100%;
+  ;
+  }
+  
+  .container img {
+    width: 100%;
+    height: 337px;;
+    border-radius: 16px 16px 0px 0px;
+
+background: url(),rgb(217, 217, 217);
+  }
+  
+  .container .btn {
+    position: absolute;
+    top: 90%;
+    left:2%;
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+  }
+
+.story-1 h2{
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 20px;
+}
+.story-1 p{
+    color: rgb(102, 102, 102);
+    font-family: Raleway;
+    font-size: 10px;
+    text-align: left;
+    margin-left: 20px;
+}
+.story-2{
+    /* width: 540.27px; */
+    border-radius: 16px;
+    align-items: start; 
+background: rgb(255, 255, 255);
+text-align: center;
+
+}
+.story-2-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-around;
+    margin: 10px;
+   gap: 12px;
+}
+.container-2 {
+    position: relative;
+    /* width: 100%; */
+  
+  }
+  
+  .container-2 img {
+    width: 100%;
+    /* height: auto; */
+    border-radius: 16px 16px 0px 0px;
+
+    background: url(),rgb(217, 217, 217);
+
+   
+  }
+  
+  .container-2 .btn-2 {
+    position: absolute;
+    top: 90%;
+    left:2%;
+   
+    border-radius: 47.93px;
+
+    background: rgb(149, 178, 38);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+   
+    text-align: center;
+  }
+  .container-2 h4{
+    color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 12.34px;
+text-align: center;
+  }
 
 
 
