@@ -386,7 +386,10 @@ text-align: left;
     
 }
 @media only screen and (max-width:575px) {
-  
+  .nav{
+  padding: 12px;
+    border-bottom: 2px solid orange;
+  }
    .nav-logo h3{
     color: transparent;
    }
@@ -408,6 +411,7 @@ text-align: left;
     .nav-var img{
         display: block;
         text-align: right;
+        padding-left: 200px;
         
     }
     #check:checked ~ .nav-var ul {
@@ -425,6 +429,7 @@ text-align: left;
   }
   .image-hero  {
     text-align: center;
+   
     
   }
   .courage h1 {
